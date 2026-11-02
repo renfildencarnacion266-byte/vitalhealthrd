@@ -144,7 +144,7 @@
       const card = document.createElement("div");
       card.className = "card";
       card.innerHTML =
-        '<div class="foto">' + p[0] + '<img src="fotos/' + p[7] + '.jpg" alt="' + p[0] + '" onerror="siguiente(this)"></div>' +
+        '<div class="foto">' + p[0] + '<img src="' + p[7] + '.jpg" alt="' + p[0] + '" onerror="siguiente(this)"></div>' +
         '<div class="info"><span class="cat">' + CATEGORIAS[p[1]] + '</span><h3>' + p[0] + '</h3>' +
         '<p>' + p[4] + '</p><div class="precio">' + precioTexto(p) + '</div>' +
         '<a class="btn" target="_blank" rel="noopener" href="' + enlace(mensaje(p)) + '">Pedir por WhatsApp</a></div>';
